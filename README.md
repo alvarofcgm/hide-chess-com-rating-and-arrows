@@ -64,6 +64,7 @@ setInterval(() => {
     removeElementsHTMLByClass("user-rating-rating");
     removeElementsHTMLByClass("rating-score-component");
     removeElementsHTMLByClass("user-tagline-rating user-tagline-white");
+    removeElementsHTMLByClass("player-game-over-component");
 
     // hide arrows (remove the next line if you want the arrows):
     removeElementsHTMLByClass("arrows");
