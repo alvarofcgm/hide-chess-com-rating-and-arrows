@@ -13,7 +13,9 @@ Add Tampermonkey
 
 For users of the Tampermonkey extension in a Chrome-based browser, enabling Developer Mode is a requirement.
 
-[Click here for instructions on how to do it](https://www.tampermonkey.net/faq.php#Q209).
+Open the menu, select "Extensions" > "Manage extensions" and enable the "Developer Mode" using the toggle at the top.
+
+[Click here for step-by-step illustrated instructions](https://www.tampermonkey.net/faq.php#Q209).
 
 ## 3- Create the script
 
