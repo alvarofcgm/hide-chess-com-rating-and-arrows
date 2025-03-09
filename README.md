@@ -9,12 +9,17 @@ Add Tampermonkey
 
  ⚠️ Tampermonkey note: Always review the code, verify the source, and avoid running unknown scripts. Stay safe! 🔒
 
+## 2- Step for Chrome / Chrome-based browser users
 
-## 2- Create the script
+For users of the Tampermonkey extension in a Chrome-based browser, enabling Developer Mode is a requirement.
+
+[https://www.tampermonkey.net/faq.php#Q209](Click here for instructions on how to do it).
+
+## 3- Create the script
 
 Click on the extension button on your browser, then click on the tapermonkey extension > + Create a new script
 
-## 3- Paste the script
+## 4- Paste the script
 
 Paste the following script on the Editor and save it using Ctrl+S or the Editor's menu: File > Save.
 
@@ -49,13 +54,14 @@ setInterval(() => {
     removeElementsHTMLByClass("user-rating");
     removeElementsHTMLByClass("cc-user-rating-default");
     removeElementsHTMLByClass("cc-user-rating-white");
-    removeElementsHTMLByClass("player-game-over-component");
     removeElementsHTMLByClass("rating-score-rating");
     removeElementsHTMLByClass("rating-score-change rating-score-positive");
     removeElementsHTMLByClass("player-pieces");
     removeElementsHTMLByClass("resizable-chat-area-content");
     removeElementsHTMLByClass("game-over-message-component");
     removeElementsHTMLByClass("user-rating-rating");
+    removeElementsHTMLByClass("rating-score-component");
+    removeElementsHTMLByClass("user-tagline-rating user-tagline-white");
 
     // hide arrows (remove the next line if you want the arrows):
     removeElementsHTMLByClass("arrows");
@@ -65,6 +71,6 @@ setInterval(() => {
 })();
 ```
 
-## 4- Test
+## 5- Test
 
 Go to chess.com and play.
