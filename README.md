@@ -13,7 +13,7 @@ Add Tampermonkey
 
 For users of the Tampermonkey extension in a Chrome-based browser, enabling Developer Mode is a requirement.
 
-[https://www.tampermonkey.net/faq.php#Q209](Click here for instructions on how to do it).
+[Click here for instructions on how to do it](https://www.tampermonkey.net/faq.php#Q209).
 
 ## 3- Create the script
 
